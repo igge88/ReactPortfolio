@@ -1,8 +1,50 @@
 import React from 'react'
 import './portfolio.css'
-//import Bild1 from '../../assets/'
-//import Bild2 from '../../assets/'
-//import Bild3 from '../../assets/'
+import Bild1 from '../../assets/PortfolioNewRetro.JPG'
+import Bild2 from '../../assets/PortfolioR2D2.JPG'
+import Bild3 from '../../assets/PortfolioAventuras.JPG'
+import Bild4 from '../../assets/PortfolioSpotify2.jpg'
+import Bild5 from '../../assets/PortfolioFigma.JPG'
+
+const data = [
+    {
+        id: 1,
+        image: Bild1,
+        title: 'A NewRetro Website with HTML & CSS',
+        github: 'https://github.com/igge88/Lab1',
+        demo: 'http://studentiths.se/JSUFEU-STHLM/IgnacioT/NewRetro/'
+    },
+    {
+        id: 2,
+        image: Bild2,
+        title: 'A VUE project with APIs',
+        github: 'https://github.com/igge88/R2D2App',
+        demo: 'https://igge88.github.io/R2D2App/'
+    },
+    {
+        id: 3,
+        image: Bild3,
+        title: 'A group project with VUE',
+        github: 'https://github.com/vikluund/Team1',
+        demo: 'https://github.com/vikluund/Team1'
+    },
+    {
+        id: 4,
+        image: Bild4,
+        title: 'A JavaScript project - Spotify API',
+        github: 'https://github.com/igge88/Lab2',
+        demo: 'https://github.com/igge88/Lab2'
+    },
+    {
+        id: 5,
+        image: Bild5,
+        title: 'A UX/UI group project - Designsystem',
+        github: 'https://github.com/igge88',
+        demo: 'https://figma.com/'
+    },
+
+
+]
 
 const Portfolio = () => {
   return (
@@ -11,14 +53,23 @@ const Portfolio = () => {
         <h2>Portfolio</h2>
 
         <div className='container portfolio_container'>
-            <article className='portfolio__item'>
-                <div className='portfolio__item-image'>
-                    
-                </div>
-                <h3>Project Title</h3>
-                <a href="https://github.com/igge88" className='btn' target='_blank'>Github</a>
-                <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-            </article>
+           {
+            data.map(({id, image, title, github, demo}) => {
+                return (
+                    <article key={id} className='portfolio__item'>
+                    <div className='portfolio__item-image'>
+                        <img src={image} alt={title} />
+                    </div>
+                    <h3>{title}</h3>
+                    <div className="portfolio_item-cta">
+                      <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
+                      <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                    </div>
+                </article>
+                )
+            })
+           }
+
         </div>
     </section>
   )
