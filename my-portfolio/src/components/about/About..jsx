@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/jag.jpg'
-import {BsAward} from 'react-icons/bs'
+import {BiStar} from 'react-icons/bi'
 import {MdOutlineWorkHistory} from 'react-icons/md'
-import {AiOutlineProject} from 'react-icons/ai'
+import {RiReactjsLine} from 'react-icons/ri'
 
 const About = () => {
   return (
@@ -12,18 +12,12 @@ const About = () => {
         <h2>About Me</h2>
 
         <div className='container about__container'>
-            <div className='about__me'>
-                <div className='about__me-image'>
-                    <img src={ME} alt="AboutImage" />
-                </div>
-            </div>
 
             <div className='about__content'>
                 <div className='about__cards'>
                     <article className='about__card'>
-                        <BsAward className='about__icon'/>
+                        <BiStar className='about__icon'/>
                         <h5>Experience</h5>
-
                     </article>
                     <article className='about__card'>
                         <MdOutlineWorkHistory className='about__icon'/>
@@ -31,18 +25,20 @@ const About = () => {
 
                     </article>
                     <article className='about__card'>
-                        <AiOutlineProject className='about__icon'/>
+                        <RiReactjsLine className='about__icon'/>
                         <h5>Projects</h5>
-                    
+
                     </article>
                 </div>
-
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum eos a odio laboriosam magnam, fugit cupiditate natus adipisci perspiciatis quidem inventore reprehenderit modi! Consequatur molestias omnis totam? Eos, fugit impedit.
+                I’am currently in my second semester out of four at  IT-Högskolans Frontend Developer training and soon it will be time for me to go into my first internship. I'am looking for an internship where I can grow and develop in my new professional role as a developer.
                 </p>
-
                 <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-
+            </div>
+            <div className='about__me'>
+                <div className='about__me-image'>
+                    <img src={ME} alt="AboutImage" />
+                </div>
             </div>
         </div>
     </section>

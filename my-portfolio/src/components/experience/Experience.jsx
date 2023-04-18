@@ -37,21 +37,21 @@ const Experience = () => {
                         <FiCheckSquare className='experience__icon'/>
                         <div>
                         <h4>VUE</h4>
-                        <small className='text-light'>Intermediate</small>
+                        <small className='text-light'>Beginner</small>
                         </div>
                     </article>
                     <article className='experience__details'>
                         <FiCheckSquare className='experience__icon'/>
                         <div>
                         <h4>REACT</h4>
-                        <small className='text-light'>Intermediate</small>
+                        <small className='text-light'>Beginner</small>
                         </div>
                     </article>
                     <article className='experience__details'>
                         <FiCheckSquare className='experience__icon'/>
                         <div>
-                        <h4>Bootstrap</h4>
-                        <small className='text-light'>Intermediate</small>
+                        <h4>UX/UI</h4>
+                        <small className='text-light'>Beginner</small>
                         </div>
                     </article>
                 </div>

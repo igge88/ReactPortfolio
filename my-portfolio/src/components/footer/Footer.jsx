@@ -3,11 +3,17 @@ import './footer.css'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {FaFacebookSquare} from 'react-icons/fa'
 import {AiOutlineTwitter} from 'react-icons/ai'
+import {BsFillSuitHeartFill} from 'react-icons/bs'
 
 const Footer = () => {
   return (
     <footer>
-        <a href="#" className='footer_logo'>AKA IGGE</a>
+
+<div className="footer_socials">
+            <a href="https://github.com/igge88"><AiOutlineGithub /></a>
+            <a href="https://www.facebook.com/nacho.t.troncoso"><FaFacebookSquare /></a>
+            <a href="https://twitter.com/"><AiOutlineTwitter /></a>
+        </div>
 
         <ul className='permalinks'>
             <li><a href="#">Home</a></li>
@@ -18,15 +24,10 @@ const Footer = () => {
             <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <div className="footer_socials">
-            <a href="https://github.com/igge88"><AiOutlineGithub /></a>
-            <a href="https://www.facebook.com/nacho.t.troncoso"><FaFacebookSquare /></a>
-            <a href="https://twitter.com/"><AiOutlineTwitter /></a>
-        </div>
-
         <div className='footer_copyrigth'>
             <small>&copy; All rights reserved.</small>
         </div>
+        <div className='with_love'></div>
     </footer>
   )
 }
