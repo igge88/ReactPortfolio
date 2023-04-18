@@ -3,7 +3,6 @@ import './footer.css'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {FaFacebookSquare} from 'react-icons/fa'
 import {AiOutlineTwitter} from 'react-icons/ai'
-import {BsFillSuitHeartFill} from 'react-icons/bs'
 
 const Footer = () => {
   return (

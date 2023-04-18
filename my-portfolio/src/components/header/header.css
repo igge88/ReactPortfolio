@@ -2,7 +2,7 @@ header {
     height: 100vh;
     padding-top: 10rem;
     overflow: hidden;
-    margin-bottom: -8rem;
+    margin-bottom: -5rem;
 }
 
 .header__container {
@@ -14,7 +14,7 @@ header {
 /* ---------------- CTA ----------------*/
 
 .cta {
-    margin-top: 28rem;
+    margin-top: 32rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -22,25 +22,15 @@ header {
 
 /* ---------------- SOCIALS ----------------*/
 
-.header__socials {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: calc(50% - 2.1rem);
-    padding-top: 25rem;
-}
-
-
 
 /* ---------------- ME ----------------*/
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 22rem;
+    width: 28rem;
+    height: 28rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 14rem);
     margin-top: 4rem;
     border-radius: 50%;
     overflow: hidden;
@@ -48,12 +38,17 @@ header {
     margin-top: 2rem;
 }
 
-
+img {
+    margin-left: -5px;
+}
 
 /* ------------- MEDIA QUERIES (MEDIUM DEVICES) ----------*/
 @media screen and (max-width: 1024px) {
     header {
         height: 68vh;
+    }
+    .header__socials {
+        display: none;
     }
 }
 
@@ -63,8 +58,4 @@ header {
         height: 100vh;
     }
 
-    .header__socials,
-    .scroll__down {
-        display: none;
-    }
 }
