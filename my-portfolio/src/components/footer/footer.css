@@ -30,7 +30,7 @@ footer a {
     background: var(--color-bg);
     color: var(--color-white);
     padding: 0.8rem;
-    border-radius: 0.7rem;
+    border-radius: 2rem;
     display: flex;
     border: 2px solid transparent;
 }

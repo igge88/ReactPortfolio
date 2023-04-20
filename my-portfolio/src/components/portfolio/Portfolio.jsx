@@ -10,7 +10,7 @@ const data = [
     {
         id: 1,
         image: Bild1,
-        title: 'A NewRetro Website with HTML & CSS',
+        title: 'A HTML & CSS website',
         github: 'https://github.com/igge88/Lab1',
         demo: 'http://studentiths.se/JSUFEU-STHLM/IgnacioT/NewRetro/'
     },
@@ -31,14 +31,14 @@ const data = [
     {
         id: 4,
         image: Bild4,
-        title: 'A JavaScript project - Spotify API',
+        title: 'A UX/UI group project - Designsystem',
         github: 'https://github.com/igge88/Lab2',
         demo: 'https://github.com/igge88/Lab2'
     },
     {
         id: 5,
         image: Bild5,
-        title: 'A UX/UI group project - Designsystem',
+        title: 'A JavaScript project - Spotify API',
         github: 'https://github.com/igge88',
         demo: 'https://figma.com/'
     },
