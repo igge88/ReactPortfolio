@@ -1,6 +1,5 @@
 header {
     height: 100vh;
-    padding-top: 10rem;
     overflow: hidden;
     margin-bottom: -5rem;
 }
@@ -9,12 +8,13 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
+    padding-top: 8rem;
 }
 
 /* ---------------- CTA ----------------*/
 
 .cta {
-    margin-top: 32rem;
+    margin-top: 25rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -27,15 +27,15 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 28rem;
-    height: 28rem;
+    width: 22rem;
+    height: 22rem;
     position: absolute;
-    left: calc(50% - 14rem);
+    left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 50%;
     overflow: hidden;
     padding: 2rem 0rem 0rem 0rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 img {
