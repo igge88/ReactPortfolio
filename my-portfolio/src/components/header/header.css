@@ -45,7 +45,7 @@ img {
 /* ------------- MEDIA QUERIES (MEDIUM DEVICES) ----------*/
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 72vh;
     }
     .header__socials {
         display: none;
@@ -56,6 +56,26 @@ img {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+    }
+
+    .me {
+        background: linear-gradient(var(--color-primary), transparent);
+        width: 22rem;
+        height: 22rem;
+        position: absolute;
+        left: calc(50% - 11rem);
+        margin-top: 4rem;
+        border-radius: 50%;
+        overflow: hidden;
+        padding: 2rem 0rem 0rem 0rem;
+        margin-top: 2rem;
+    }
+
+    .cta {
+        margin-top: 27rem;
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
     }
 
 }

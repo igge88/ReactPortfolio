@@ -24,6 +24,14 @@ const Contact = () => {
         <h2>Contact Me</h2>
 
         <div className='container contact_container'>
+
+            {/*END OF CONTACT OPTIONS*/}
+            <form ref={form} onSubmit={sendEmail}>
+                <input type="text" name='name' placeholder='Your Full Name' required />
+                <input type="email" name='email' placeholder='Your Email' required />
+                <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+                <button type='submit' className='btn btn-primary'>Send Message</button>
+            </form>
             <div className='contact_options'>
                 <article className='contact_option'>
                     <HiOutlineMail className='contact_option-icon'/>
@@ -44,13 +52,6 @@ const Contact = () => {
                     <a href="https://api.whatsapp.com/send?phone=+46762428648" target='_blank' rel="noreferrer">Send a message</a>
                 </article>
             </div>
-            {/*END OF CONTACT OPTIONS*/}
-            <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name='name' placeholder='Your Full Name' required />
-                <input type="email" name='email' placeholder='Your Email' required />
-                <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
-                <button type='submit' className='btn btn-primary'>Send Message</button>
-            </form>
 
         </div>
     </section>
