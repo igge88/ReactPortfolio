@@ -11,26 +11,33 @@ header {
     padding-top: 8rem;
 }
 
-/* ---------------- CTA ----------------*/
+/* -------------- CTA --------------*/
 
 .cta {
-    margin-top: 25rem;
+    margin-top: 3rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
 
-/* ---------------- SOCIALS ----------------*/
+/* -------------- SOCIALS -------------*/
 
+.header_socials {
+    display: flex;
+    justify-content:center ;
+    gap: 4rem;
+    margin-top: 31rem;
+    font-size: 1.3rem;
+}
 
 /* ---------------- ME ----------------*/
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 22rem;
+    width: 28em;
+    height: 28rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 14rem);
     margin-top: 4rem;
     border-radius: 50%;
     overflow: hidden;
@@ -45,7 +52,7 @@ img {
 /* ------------- MEDIA QUERIES (MEDIUM DEVICES) ----------*/
 @media screen and (max-width: 1024px) {
     header {
-        height: 72vh;
+        height: 80vh;
     }
     .header__socials {
         display: none;
@@ -72,10 +79,18 @@ img {
     }
 
     .cta {
-        margin-top: 27rem;
+        margin-top: 3rem;
         display: flex;
         gap: 1.2rem;
         justify-content: center;
+    }
+
+    .header_socials {
+        display: flex;
+        justify-content:center ;
+        gap: 4rem;
+        margin-top: 26rem;
+        font-size: 1.3rem;
     }
 
 }
