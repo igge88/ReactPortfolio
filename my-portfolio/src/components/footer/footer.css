@@ -1,5 +1,5 @@
 footer {
-    background: var(--color-primary);
+    background: linear-gradient(350deg,var(--color-primary), transparent);
     padding: 2rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -46,8 +46,10 @@ footer a {
     color: var(--color-bg);
 }
 
-.with_love {
+.made_by {
     color: var(--color-bg);
+    font-size: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* ------------- MEDIA QUERIES (SMALL DEVICES) ----------*/

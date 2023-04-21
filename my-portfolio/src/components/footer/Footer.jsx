@@ -4,6 +4,7 @@ import {AiOutlineGithub} from 'react-icons/ai'
 import {FaFacebookSquare} from 'react-icons/fa'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {BsLinkedin} from 'react-icons/bs'
+import {FaHeart} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -26,12 +27,9 @@ const Footer = () => {
         </ul>
 
         <div className='made_by'>
-          <h5>Made with love by Ignacio Tapia</h5>
+          <h5>Made with <FaHeart /> by Ignacio Tapia</h5>
         </div>
-        <div className='footer_copyrigth'>
-            <small>&copy; All rights reserved.</small>
-        </div>
-        <div className='with_love'></div>
+       
     </footer>
   )
 }
