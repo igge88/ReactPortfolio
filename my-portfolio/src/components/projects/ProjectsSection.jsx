@@ -33,14 +33,14 @@ const data = [
         image: Bild4,
         title: 'A UX/UI group project - Designsystem',
         github: 'https://github.com/igge88/Lab2',
-        demo: 'https://github.com/igge88/Lab2'
+        demo: 'https://figma.com/'
     },
     {
         id: 5,
         image: Bild5,
         title: 'A JavaScript project - Spotify API',
         github: 'https://github.com/igge88',
-        demo: 'https://figma.com/'
+        demo: 'https://github.com/igge88/Lab2'
     },
 
 

@@ -1,8 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './navStyles.css'
 import {FiHome, FiUser, FiBook, FiMessageSquare} from 'react-icons/fi'
 import {RiServiceLine} from 'react-icons/ri'
-import {useState} from 'react'
 
 
 function Nav() {

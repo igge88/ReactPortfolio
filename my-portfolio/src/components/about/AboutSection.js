@@ -4,6 +4,7 @@ import Jag from '../../assets/jagAbout.jpg'
 import {BiStar} from 'react-icons/bi'
 import {MdOutlineWorkHistory} from 'react-icons/md'
 import {RiReactjsLine} from 'react-icons/ri'
+import {Link} from 'react-router-dom'
 
 function About() {
   return (
@@ -37,7 +38,7 @@ function About() {
                 <p>
                 I’am currently in my second semester out of four at  IT-Högskolans Frontend Developer training and soon it will be time for me to go into my first internship. I'am looking for an internship where I can grow and develop in my new professional role as a developer.
                 </p>
-                <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                <Link to="/#contact" className='btn btn-primary'>Contact me</Link>
             </div>
 
         </div>
