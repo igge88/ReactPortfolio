@@ -1,5 +1,5 @@
 import React from 'react'
-import './portfolio.css'
+import './projectsStyles.css'
 import Bild1 from '../../assets/NewRetro.jpg'
 import Bild2 from '../../assets/R2D2.jpg'
 import Bild3 from '../../assets/Aventuras.jpg'

@@ -1,10 +1,9 @@
 import React from 'react'
 import {BsLinkedin} from 'react-icons/bs'
-import {FaGithub} from 'react-icons/fa'
+import {FaGithub, FaFacebookSquare} from 'react-icons/fa'
 import {FiTwitter} from 'react-icons/fi'
-import {FaFacebookSquare} from 'react-icons/fa'
 
-const HeaderSocials = () => {
+function HeaderSocials() {
   return (
     <div className="header_socials">
         <div className='social_github'>

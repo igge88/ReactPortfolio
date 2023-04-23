@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './components/header/HeaderSection'
-import Nav from './components/nav/Nav'
+import Nav from './components/navbar/NavSection'
 import About from './components/about/AboutSection'
 import Experience from './components/experience/ExperienceSection'
-import Jobs from './components/Jobs/Jobs'
-import Portfolio from './components/portfolio/Portfolio'
+import Jobs from './components/Jobs/JobsSection'
+import Portfolio from './components/projects/ProjectsSection'
 import Contact from './components/contact/ContactSection'
 import Footer from './components/footer/Footer'
 
-const App = () => {
+function App() {
   return (
     <>
     <Header />

@@ -1,10 +1,10 @@
 import React from 'react'
-import './headerStyle.css'
+import './headerStyles.css'
 import CTA from './CTA'
-import ME from '../../assets/Profil.png'
+import Jag from '../../assets/Profil.png'
 import HeaderSocial from './HeaderSocials'
 
-const Header = () => {
+function Header() {
   return (
     <header>
         <div className="container header_container">
@@ -12,7 +12,7 @@ const Header = () => {
             <h1>Ignacio Tapia</h1>
             <h5 className="text-light">Front End Developer Student</h5>
             <div className="me">
-                <img src={ME} alt="me" />
+                <img src={Jag} alt="me" />
             </div>
             <HeaderSocial />
             <CTA />

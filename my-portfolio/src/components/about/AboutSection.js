@@ -1,11 +1,11 @@
 import React from 'react'
-import './aboutStyle.css'
-import ME from '../../assets/jagAbout.jpg'
+import './aboutStyles.css'
+import Jag from '../../assets/jagAbout.jpg'
 import {BiStar} from 'react-icons/bi'
 import {MdOutlineWorkHistory} from 'react-icons/md'
 import {RiReactjsLine} from 'react-icons/ri'
 
-const About = () => {
+function About() {
   return (
     <section id='about'>
         <h5>Get To Know</h5>
@@ -14,7 +14,7 @@ const About = () => {
         <div className='container about__container'>
         <div className='about__me'>
         <div className='about__me-image'>
-                    <img src={ME} alt="AboutImage" />
+                    <img src={Jag} alt="AboutImage" />
                 </div>
             </div>
             <div className='about__content'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import './contactStyle.css'
+import './contactStyles.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
@@ -7,8 +7,7 @@ import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
 
-
-const Contact = () => {
+function Contact() {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -25,7 +24,6 @@ const Contact = () => {
 
         <div className='container contact_container'>
 
-            {/*END OF CONTACT OPTIONS*/}
             <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name='name' placeholder='Your Full Name' required />
                 <input type="email" name='email' placeholder='Your Email' required />

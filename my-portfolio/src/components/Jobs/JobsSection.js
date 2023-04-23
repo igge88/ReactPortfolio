@@ -1,8 +1,8 @@
 import React from 'react'
-import './Jobs.css'
+import './jobsStyles.css'
 import {MdWorkHistory} from 'react-icons/md'
 
-const Services = () => {
+function MyJobs() {
   return (
     <section id='jobs'>
         <h5>My Recent</h5>
@@ -26,7 +26,6 @@ const Services = () => {
 
                 </ul>
             </article>
-            {/* END OF DA*/}
             <article className='jobs'>
                 <div className='jobs__header'>
                     <h3>Marketing Automatiion Specialist</h3>
@@ -47,7 +46,6 @@ const Services = () => {
                     </li>
                 </ul>
             </article>
-            {/* END OF MA*/}
             <article className='jobs'>
                 <div className='jobs__header'>
                     <h3>Warehouse Operator & Admin</h3>
@@ -65,11 +63,10 @@ const Services = () => {
 
                 </ul>
             </article>
-            {/* {/* END OF WO*/}
         </div>
 
     </section>
   )
 }
 
-export default Services
+export default MyJobs
