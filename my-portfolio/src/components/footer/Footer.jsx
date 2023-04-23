@@ -1,5 +1,5 @@
 import React from 'react'
-import './footer.css'
+import './footerStyle.css'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {FaFacebookSquare} from 'react-icons/fa'
 import {AiOutlineTwitter} from 'react-icons/ai'
@@ -29,7 +29,7 @@ const Footer = () => {
         <div className='made_by'>
           <h5>Made with <FaHeart /> by Ignacio Tapia</h5>
         </div>
-       
+
     </footer>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import './experience.css'
+import './experienceStyle.css'
 import {FiCheckSquare} from 'react-icons/fi'
 
 const Experience = () => {

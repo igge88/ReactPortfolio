@@ -1,6 +1,6 @@
 import React from 'react'
-import './about.css'
-import ME from '../../assets/jag.jpg'
+import './aboutStyle.css'
+import ME from '../../assets/jagAbout.jpg'
 import {BiStar} from 'react-icons/bi'
 import {MdOutlineWorkHistory} from 'react-icons/md'
 import {RiReactjsLine} from 'react-icons/ri'
