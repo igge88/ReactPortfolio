@@ -37,8 +37,8 @@ img{
 .about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 11rem;
-    padding: 3.5rem;
+    border-radius: 10rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -73,7 +73,7 @@ img{
 
     .about__me {
         width: 50%;
-        margin: 2rem auto 4rem;
+        margin: 2rem auto 3rem;
     }
 
     .about__content {
