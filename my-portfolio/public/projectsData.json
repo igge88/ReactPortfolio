@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "image": "NewRetro.jpg",
+        "title": "A HTML & CSS website",
+        "github": "https://github.com/igge88/Lab1",
+        "demo": "http://studentiths.se/JSUFEU-STHLM/IgnacioT/NewRetro/"
+    },
+    {
+        "id": 2,
+        "image": "R2D2.jpg",
+        "title": "A VUE project with APIs",
+        "github": "https://github.com/igge88/R2D2App",
+        "demo": "https://igge88.github.io/R2D2App/"
+    },
+    {
+        "id": 3,
+        "image": "Aventuras.jpg",
+        "title": "A group project with VUE",
+        "github": "https://github.com/vikluund/Team1",
+        "demo": "https://github.com/vikluund/Team1"
+    },
+    {
+        "id": 4,
+        "image": "Figma.jpg",
+        "title": "A UX/UI group project - Designsystem",
+        "github": "https://github.com/igge88/Lab2",
+        "demo": "https://figma.com/"
+    },
+    {
+        "id": 5,
+        "image": "SpotifyApp.jpg",
+        "title": "A JavaScript project - Spotify API",
+        "github": "https://github.com/igge88",
+        "demo": "https://github.com/igge88/Lab2"
+    }
+]
