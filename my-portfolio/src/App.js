@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from './components/header/HeaderSection'
 import Nav from './components/navbar/NavSection'
-import About from './components/about/AboutSection'
-import Experience from './components/experience/ExperienceSection'
+import ParentComponent from './components/about/ParentComponent'
+import ExperienceSection from './components/experience/ExperienceSection'
+import { ExperienceProvider } from './components/experience/ExperienceContext'
 import Jobs from './components/Jobs/JobsSection'
 import Portfolio from './components/projects/ProjectsSection'
 import Contact from './components/contact/ContactSection'
 import Footer from './components/footer/Footer'
+
 //import { NavContext } from './components/NavContext'
 
 function App() {
@@ -14,8 +16,12 @@ function App() {
         <>
             <Header />
             <Nav />
-            <About />
-            <Experience />
+            <ParentComponent />
+            <ExperienceProvider>
+                <div className="App">
+                    <ExperienceSection />
+                </div>
+            </ExperienceProvider>
             <Jobs />
             <Portfolio />
             <Contact />

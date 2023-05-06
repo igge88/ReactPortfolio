@@ -1,4 +1,4 @@
-/* VARIANT 1
+/* VARIANT 1 (Whithout usEffect)
 import React from 'react'
 import './projectsStyles.css'
 import Bild1 from '../../assets/NewRetro.jpg'
