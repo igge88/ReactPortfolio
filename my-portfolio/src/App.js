@@ -9,8 +9,6 @@ import Portfolio from './components/projects/ProjectsSection'
 import Contact from './components/contact/ContactSection'
 import Footer from './components/footer/Footer'
 
-//import { NavContext } from './components/NavContext'
-
 function App() {
     return (
         <>

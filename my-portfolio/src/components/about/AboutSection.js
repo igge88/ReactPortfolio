@@ -50,7 +50,7 @@ function About() {
 export default About
 */
 
-/* VARIANT 2
+/* VARIANT 2 (With Props)
 import React from 'react'
 import './aboutStyles.css'
 import Jag from '../../assets/jagAbout.jpg'
@@ -104,7 +104,7 @@ function About(props) {
 export default About
 */
 
-// VARIANT 3
+// VARIANT 3 (With Props)
 import React from 'react';
 import './aboutStyles.css';
 import Jag from '../../assets/jagAbout.jpg';

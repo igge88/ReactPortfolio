@@ -4,7 +4,7 @@ import { FiCheckSquare } from 'react-icons/fi'
 import { ExperienceContext } from './ExperienceContext'
 
 function Experience() {
-    // Access the shared state and its setter function
+
     const { experienceLevel } = useContext(ExperienceContext)
 
     return (
