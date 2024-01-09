@@ -27,7 +27,7 @@ function Footer() {
         </ul>
 
         <div className='made_by'>
-          <h5>Made with <FaHeart /> by Ignacio Tapia</h5>
+          <h5>Made with   <FaHeart />   by Ignacio Tapia</h5>
         </div>
 
     </footer>

@@ -42,12 +42,12 @@ img{
     text-align: center;
 }
 
-.about__card:hover {
+/* .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
     transition: var(--transition);
-}
+} */
 
 .about__icon {
     color: var(--color-primary);
@@ -62,6 +62,13 @@ img{
     margin: 2rem 0 2.5rem;
     color: var(--color-light);
 }
+
+.ctaAbout {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content:left;
+  }
 
 
 /* ------------- MEDIA QUERIES (MEDIUM DEVICES) ----------*/
@@ -100,4 +107,11 @@ img{
     .about__content p {
         margin: 1.5rem 0;
     }
+
+    .ctaAbout {
+        margin-top: 3rem;
+        display: flex;
+        gap: 1.2rem;
+        justify-content:center;
+      }
 }

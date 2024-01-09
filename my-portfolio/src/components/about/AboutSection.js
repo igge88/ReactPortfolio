@@ -111,7 +111,9 @@ import Jag from '../../assets/jagAbout2.jpg'
 import { BiStar } from 'react-icons/bi'
 import { MdOutlineWorkHistory } from 'react-icons/md'
 import { RiReactjsLine } from 'react-icons/ri'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import CTAabout from './CTAabout'
+
 
 function About(props) {
     const { experience, work, projects } = props
@@ -151,9 +153,10 @@ function About(props) {
                         and develop my FrontEnd development skills and hopefully
                         find long-term employment. <br /> <br /> Feel free to contact me if you want to talk!
                     </p>
-                    <Link to="/#contact" className="btn btn-primary">
+                    {/* <Link to="/#contact" className="btn btn-primary">
                         Contact me
-                    </Link>
+                    </Link> */}
+                    <CTAabout />
                 </div>
             </div>
         </section>
