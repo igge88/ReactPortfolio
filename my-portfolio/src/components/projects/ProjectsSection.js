@@ -86,6 +86,7 @@ import Bild2 from '../../assets/R2D2.jpg';
 import Bild3 from '../../assets/Aventuras.jpg';
 import Bild4 from '../../assets/Figma.jpg';
 import Bild5 from '../../assets/SpotifyApp.jpg';
+import Bild6 from '../../assets/goodTalk.png';
 
 const data = [
   {
@@ -93,7 +94,7 @@ const data = [
     image: Bild1,
     title: 'A HTML & CSS website',
     github: 'https://github.com/igge88/Lab1',
-    demo: 'http://studentiths.se/JSUFEU-STHLM/IgnacioT/NewRetro/',
+    demo: 'https://new-retro.netlify.app/',
   },
   {
     id: 2,
@@ -120,6 +121,13 @@ const data = [
     id: 5,
     image: Bild5,
     title: 'A JavaScript project - Spotify API',
+    github: 'https://github.com/igge88/Lab2',
+    demo: 'https://github.com/igge88/Lab2',
+  },
+  {
+    id: 6,
+    image: Bild6,
+    title: 'A Fullstack project - Chat Web application',
     github: 'https://github.com/igge88/Lab2',
     demo: 'https://github.com/igge88/Lab2',
   },
