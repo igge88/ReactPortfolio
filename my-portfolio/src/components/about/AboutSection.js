@@ -142,9 +142,8 @@ function About(props) {
             </article>
           </div>
           <p>
-            I’m currently in my second semester out of four at IT-Högskolans
-            Frontend Developer training and soon it will be time for me to go
-            into my first internship. I'm looking for an internship where I can
+            I’m currently in my third semester out of four and facing my last internship period which starts
+            at the end of January 2024. I'm looking for an internship where I can
             grow and develop in my new professional role as a developer.
           </p>
           <Link to='/#contact' className='btn btn-primary'>

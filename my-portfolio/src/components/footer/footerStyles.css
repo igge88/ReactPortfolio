@@ -1,15 +1,17 @@
 footer {
   /* background: linear-gradient(350deg,var(--color-primary), transparent); */
-  background: var(--color-primary);
+  /* background: var(--color-primary); */
+  background: black;
   padding: 2rem 0;
   text-align: center;
   font-size: 1rem;
   margin-top: 7rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 footer a {
-  color: var(--color-bg);
+  /* color: var(--color-bg); */
+  color: var(--color-primary);
 }
 
 .permalinks {
@@ -29,7 +31,8 @@ footer a {
 }
 
 .footer_socials a {
-  background: var(--color-bg);
+  /* background: var(--color-bg); */
+  background: var(--color-primary);
   color: var(--color-white);
   padding: 0.8rem;
   border-radius: 2rem;
@@ -38,9 +41,9 @@ footer a {
 }
 
 .footer_socials a:hover {
-  background: white;
-  color: var(--color-bg);
-  border-color: var(--color-bg);
+  background: var(--color-primary-variant);
+  color: var(--color-white);
+  border-color: var(--color-primary);
 }
 
 .footer_copyrigth {
@@ -49,7 +52,8 @@ footer a {
 }
 
 .made_by {
-  color: var(--color-bg);
+  /* color: var(--color-bg); */
+  color: var(--color-primary);
   font-size: 1rem;
   padding-bottom: 1rem;
 }
