@@ -78,7 +78,7 @@ const Portfolio = () => {
 
 export default Portfolio*/
 
-// VARIANT 2
+// VARIANT 2 With useEffect
 import React, { useEffect } from 'react';
 import './projectsStyles.css';
 import Bild1 from '../../assets/NewRetro.jpg';
