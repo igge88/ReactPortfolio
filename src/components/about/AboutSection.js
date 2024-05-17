@@ -114,7 +114,6 @@ import { RiReactjsLine } from 'react-icons/ri'
 // import { Link } from 'react-router-dom'
 import CTAabout from './CTAabout'
 
-
 function About(props) {
     const { experience, work, projects } = props
 
@@ -144,14 +143,16 @@ function About(props) {
                         </article>
                     </div>
                     <p>
-                        My name is Ignacio and I am currently a student on a YH
-                        training for FrontEnd development at the IT University
-                        in Stockholm. Right now I am in my fourth and last
-                        semester and facing my last internship period which
-                        starts at the end of January 2024. It's an exciting time
-                        for me as I'm actively looking for opportunities to use
-                        and develop my FrontEnd development skills and hopefully
-                        find long-term employment. <br /> <br /> Feel free to contact me if you want to talk!
+                        As a final-semester student specializing in Front-End
+                        Development, I am deeply passionate about creating
+                        intuitive and dynamic user interfaces. With a keen eye
+                        for design and detail, I enjoy the entire developmental
+                        process from conceptualization to the final stages of
+                        deployment. I find motivation in addressing challenges
+                        and delivering functional end-products that meet user
+                        needs. Eager to bring my technical skills and fresh
+                        perspectives to a forward-thinking team! <br /> <br />{' '}
+                        Feel free to contact me if you want to talk!
                     </p>
                     {/* <Link to="/#contact" className="btn btn-primary">
                         Contact me
